@@ -1,0 +1,14 @@
+
+[1mFrom:[0m /home/jsig/Development/code/phase3/phase-3-sinatra-with-active-record-get/app/controllers/application_controller.rb:12 self.GET /games:
+
+     [1;34m7[0m: 
+     [1;34m8[0m:   get [31m[1;31m'[0m[31m/games[1;31m'[0m[31m[0m [32mdo[0m
+     [1;34m9[0m:     [1;34m# get all the games from the database[0m
+    [1;34m10[0m:     games = [1;34;4mGame[0m.all
+    [1;34m11[0m:     [1;34m# return a JSON response with an array of all the game data[0m
+ => [1;34m12[0m:     binding.pry
+    [1;34m13[0m:     games.to_json
+    [1;34m14[0m:   [32mend[0m
+    [1;34m15[0m: 
+    [1;34m16[0m: [32mend[0m
+
